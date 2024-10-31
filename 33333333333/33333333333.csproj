@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>_33333333333</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="2201256.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\lib_10\lib_10.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="2201256.png" />
+  </ItemGroup>
+
+</Project>
